@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, Arial, Sans-Serif;
+  background-size: initial;
+}
+
+.rainy {
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/rainy.jpg);
+}
+
+.cloudy {
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/cloudy.jpg);
+}
+
+.sunny {
+  background-image: url(https://gist.github.com/dm-wyncode/63763f460421122aab6bad7de00b0ac1/raw/d660cd094961bea222d6b2453aca2538f07ef62b/sunny.jpg);
+}
+
+.date {
+  font-size: 3rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.city, .weather-desc {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+
+.temp {
+  font-size: 5rem;
+  font-weight: bold;
+  border: 5px solid black;
+  width: 10rem;
+  margin: auto;
+  padding: 2rem;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+.temp { color: black;
+  -webkit-text-stroke-color: white;
+  border: 5px solid white;
+}
+}
